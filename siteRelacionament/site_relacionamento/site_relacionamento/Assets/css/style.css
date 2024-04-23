@@ -1,0 +1,78 @@
+* {margin: center; padding: 0;}
+
+form {margin-left: 10px; margin-top: 20px;}
+
+/* Seletor de Classe */
+input {padding-left: 2px; background-color: white ;}
+
+/* Pseudo Elemento
+
+*/
+input:hover {color: gray; background-color: rgba(240, 248, 255, 0.497);}
+
+input[type=submit] {background-color: white;}
+input[type=reset] {background-color: white;}
+
+.label {color: black;}
+input[type=label] {background-color: black;}
+
+body {
+    background-color: #2b265e;
+}
+
+#form {margin-left: 00px; 
+    font-size: larger; 
+    margin-top: 50px;
+    position: relative;
+}
+
+#texto {color: #3980ba; margin-left: 20px; font-size: x-large;}
+#login {color: rgb(63, 92, 198); font-size: xx-large;}
+#títuloPolitica {
+    margin-top: 30px;
+}
+#títuloSobre {
+    font: italic;
+}
+#imagem1 {
+    max-height: 10px;
+}
+
+#card1 {
+    margin-left: 25px;   
+    margin-top: 20px;
+}
+#cardImage1 {
+    max-height: 400px;
+}
+
+#card2 {
+    margin-left: 350px;
+    margin-top: -405px;
+    max-height: 450px;
+}
+
+#cardImage2 {
+    max-height: 300px;
+}
+
+#card3 {
+    margin-left: 340px;
+    margin-top: -330px;
+}
+
+#cardImage3 {
+    max-height: 350px;
+}
+
+#containerSearch {
+    margin-right: 100px ;
+}
+
+#searchBar {
+    background-color: white;
+    margin: auto;
+    display: block;
+    max-height: 80px;
+}
+
